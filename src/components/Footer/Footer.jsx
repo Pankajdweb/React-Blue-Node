@@ -12,7 +12,7 @@ function Footer() {
         <div className="footer-wrapper" >
           <span className="footer-logo w-inline-block"><img src={footerLogo} alt=""></img></span>
           <div className="footer-desc-wrap">
-            <p>Become Part of the Next Big Thing. Join Us.</p>
+            <p>Become Part of the Next Big Thing. Join Us. New</p>
           </div>
           <div className="social_wrapper">
             <button className="social_link w-inline-block">
