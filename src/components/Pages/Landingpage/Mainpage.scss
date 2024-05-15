@@ -640,6 +640,11 @@
     @include phone{
       padding-bottom: 1rem;
     }
+    img{  @include phone{
+      aspect-ratio: 53/48;
+    }
+
+    }
 
   }
   
@@ -1024,6 +1029,7 @@
   
   .step_img-wrap-mob {
     margin-top: 1.25rem;
+    aspect-ratio: 320/231;
   }
   
   .step_img-mob {
