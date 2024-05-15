@@ -84,7 +84,7 @@ function Buynowpage() {
               trigger: h2,
               start: "top bottom-=25%",
               end: "bottom bottom",
-             markers:{startColor: "green", endColor: "green"}
+             //markers:{startColor: "green", endColor: "green"}
             },
           }
         );
