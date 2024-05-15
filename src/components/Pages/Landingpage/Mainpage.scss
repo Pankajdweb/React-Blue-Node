@@ -1829,6 +1829,7 @@
     align-items: center;
     display: flex;
     position: relative;
+    aspect-ratio: 1/1;
 
     @include tablet{
       justify-content: center;
