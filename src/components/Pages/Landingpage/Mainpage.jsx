@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
 import "./Mainpage.scss";
 
 import { Link, useLocation } from "react-router-dom";
@@ -96,8 +97,7 @@ function Mainpage() {
 
     gsap.utils.toArray(".section-tag").forEach((sectionTag) => {
       gsap.fromTo(
-        sectionTag,
-        {
+        sectionTag,  {
           y: 200,
           opacity: 0,
         },
@@ -199,8 +199,15 @@ function Mainpage() {
     }
   }, [location]);
 
+
+  const lenisRef = useRef()
+  
+  const lenis = useLenis(({ scroll }) => {
+    // called every scroll
+  })
+
   return (
-    <div>
+    <ReactLenis root>
       <div className="main-wrapper" id="homepage">
         <div className="overflow-x-clip">
           <section gsap="group" className="sec_hero">
@@ -1014,7 +1021,7 @@ function Mainpage() {
           </section>
         </div>
       </div>
-    </div>
+    </ReactLenis>
   );
 }
 
