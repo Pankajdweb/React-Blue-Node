@@ -109,14 +109,7 @@ function Mainpage() {
           delay: 0,
           scrollTrigger: {
             trigger: sectionTag,
-            start: () => {
-              if (mm.matches("(max-width: 767px)")) {
-                // Adjust start for mobile
-                return "top bottom-=50%";
-              } else {
-                return "top bottom-=20%";
-              }
-            },
+            start: "top bottom-=20%",
             end: "bottom center+=20%",
            markers:{startColor: "yellow", endColor: "yellow"}
           },
@@ -138,14 +131,7 @@ function Mainpage() {
 
           scrollTrigger: {
             trigger: h2,
-            start: () => {
-              if (mm.matches("(max-width: 767px)")) {
-                // Adjust start for mobile
-                return "top bottom-=50%";
-              } else {
-                return "top bottom-=25%";
-              }
-            },
+            start: "top bottom-=25%",
             end: "bottom center+=25%",
            markers:{startColor: "green", endColor: "green"}
           },
@@ -166,14 +152,7 @@ function Mainpage() {
           duration: 0.5,
           scrollTrigger: {
             trigger: contentwrap,
-            start: () => {
-              if (mm.matches("(max-width: 767px)")) {
-                // Adjust start for mobile
-                return "top bottom-=50%";
-              } else {
-                return "top bottom-=30%";
-              }
-            },
+            start: "top bottom-=30%",
             end: "bottom center+=30%",
             markers:true,
           },
