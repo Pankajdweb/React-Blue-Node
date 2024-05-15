@@ -284,6 +284,8 @@
   .section-tag {
     width: 8.37rem;
     margin-bottom: 1.5rem;
+    aspect-ratio: 134/57;
+ 
 
     @include phone{
       margin-bottom: .625rem;
