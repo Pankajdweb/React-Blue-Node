@@ -111,7 +111,7 @@ function Mainpage() {
             trigger: sectionTag,
             start: "top center+=25%",
             end: "bottom bottom",
-           markers:{startColor: "yellow", endColor: "yellow"}
+           //markers:{startColor: "yellow", endColor: "yellow"}
           },
         }
       );
@@ -133,7 +133,7 @@ function Mainpage() {
             trigger: h2,
             start: "top center+=25%",
             end: "bottom bottom",
-           markers:{startColor: "green", endColor: "green"}
+           //markers:{startColor: "green", endColor: "green"}
           },
         }
       );
@@ -154,7 +154,7 @@ function Mainpage() {
             trigger: contentwrap,
             start: "top center+=25%",
             end: "bottom bottom",
-            markers:true,
+            //markers:true,
           },
         }
       );
