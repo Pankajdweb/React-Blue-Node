@@ -81,8 +81,8 @@ function Buynowpage() {
             scrollTrigger: {
               trigger: h2,
               start: "top bottom-=25%",
-              end: "bottom center+=25%",
-              // markers:{startColor: "green", endColor: "green"}
+              end: "bottom bottom",
+             markers:{startColor: "green", endColor: "green"}
             },
           }
         );
@@ -102,7 +102,7 @@ function Buynowpage() {
             scrollTrigger: {
               trigger: contentwrap,
               start: "top bottom-=30%",
-              end: "bottom center+=30%",
+              end: "bottom bottom",
               // markers:true,
             },
           }
@@ -124,7 +124,7 @@ function Buynowpage() {
             scrollTrigger: {
               trigger: imggrow,
               start: "top bottom-=30%",
-              end: "bottom center+=30%",
+              end: "bottom bottom",
               //markers: true,
             },
           }
