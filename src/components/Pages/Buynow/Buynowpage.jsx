@@ -1,4 +1,6 @@
-import React, { useEffect } from 'react'
+import React, { useEffect , useRef } from 'react'
+import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
+
 import './Buynowpage.scss'
 
 
@@ -134,6 +136,14 @@ function Buynowpage() {
     
 
   });
+
+
+  const lenisRef = useRef()
+  
+  const lenis = useLenis(({ scroll }) => {
+    // called every scroll
+  })
+  
   // Extracts pathname property(key) from an object
   const { pathname } = useLocation();
 
@@ -142,7 +152,7 @@ function Buynowpage() {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <div>
+    <ReactLenis root>
       <div className="main-wrapper">
         <div className="overflow-x-clip">
 
@@ -454,7 +464,7 @@ function Buynowpage() {
           </section>
         </div>
       </div>
-    </div>
+    </ReactLenis>
   )
 }
 
