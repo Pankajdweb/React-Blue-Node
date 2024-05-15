@@ -109,7 +109,7 @@ function Mainpage() {
           delay: 0,
           scrollTrigger: {
             trigger: sectionTag,
-            start: "top center+=10%",
+            start: "top center+=15%",
             end: "bottom bottom",
            markers:{startColor: "yellow", endColor: "yellow"}
           },
@@ -131,7 +131,7 @@ function Mainpage() {
 
           scrollTrigger: {
             trigger: h2,
-            start: "top bottom-=25%",
+            start: "top center+=15%",
             end: "bottom bottom",
            markers:{startColor: "green", endColor: "green"}
           },
@@ -152,7 +152,7 @@ function Mainpage() {
           duration: 0.5,
           scrollTrigger: {
             trigger: contentwrap,
-            start: "top bottom-=30%",
+            start: "top center+=15%",
             end: "bottom bottom",
             markers:true,
           },
@@ -174,7 +174,7 @@ function Mainpage() {
           // scrollTrigger:contentwrap,
           scrollTrigger: {
             trigger: imggrow,
-            start: "top bottom-=30%",
+            start: "top center+=15%",
             end: "bottom bottom",
             //markers: true,
           },
