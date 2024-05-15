@@ -143,7 +143,7 @@ function Steps() {
                         <div className="step_shadow _4"></div>
                         <div className="step_grid-formob">
                             <div id="w-node-a4d22d90-21ed-212b-7abe-0c97aefd3a60-ab90d4da" className="grid_item">
-                                <div className="step_card-formob">
+                                <div className="step_card-formob" contentwrap="">
                                     <div className="step_content">
                                         <div className="step_details-mob">
                                             <div className="step_count-mob">
@@ -157,7 +157,7 @@ function Steps() {
                                 </div>
                             </div>
                             <div id="w-node-_3f9a2325-2863-cfd6-95f9-ba95bf6e2bb5-ab90d4da" className="grid_item">
-                                <div className="step_card-formob">
+                                <div className="step_card-formob" contentwrap="">
                                     <div className="step_content">
                                         <div className="step_details-mob">
                                             <div className="step_count-mob">
@@ -167,11 +167,11 @@ function Steps() {
                                         </div>
                                         <p className="step_desc-mob">Dive into action! Download the BlueNode extension and breeze through registration using your unique BlueNode ID. It&#x27;s that simple.</p>
                                     </div>
-                                    <div className="step_img-wrap-mob"><img src={downloadextensionImg} alt="" className="step_img-mob"></img></div>
+                                    <div className="step_img-wrap-mob" ><img src={downloadextensionImg} alt="" className="step_img-mob"></img></div>
                                 </div>
                             </div>
                             <div id="w-node-_73ab11ee-b992-b606-ce0c-19560a4a123c-ab90d4da" className="grid_item">
-                                <div className="step_card-formob">
+                                <div className="step_card-formob" contentwrap="">
                                     <div className="step_content">
                                         <div className="step_details-mob">
                                             <div className="step_count-mob">
@@ -185,7 +185,7 @@ function Steps() {
                                 </div>
                             </div>
                             <div id="w-node-_2c0af283-07b3-d1b3-adbb-d8fbc4f7079f-ab90d4da" className="grid_item">
-                                <div className="step_card-formob">
+                                <div className="step_card-formob" contentwrap="">
                                     <div className="step_content">
                                         <div className="step_details-mob">
                                             <div className="step_count-mob">
