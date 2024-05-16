@@ -67,30 +67,30 @@ function Mainpage() {
       var tl = gsap.timeline();
     tl.fromTo(
       ".sec_hero h1",
-      { y: 200, opacity: 0 },
+      { y: 200, opacity: 0, willChange: 'opacity, transform' },
       { y: 0, opacity: 1, duration: 0.4 }
     );
     tl.fromTo(
       ".sec_hero .hbtnrowone",
-      { y: 200, opacity: 0 },
+      { y: 200, opacity: 0 , willChange: 'opacity, transform'},
       { y: 0, opacity: 1, duration: 0.4 },
       "-=0.2"
     );
     tl.fromTo(
       ".sec_hero .hero_desc-wrap",
-      { y: 200, opacity: 0 },
+      { y: 200, opacity: 0, willChange: 'opacity, transform' },
       { y: 0, opacity: 1, ease: "power2", duration: 0.4 },
       "-=0.2"
     );
     tl.fromTo(
       ".sec_hero .hbtnrowtwo",
-      { y: 200, opacity: 0 },
+      { y: 200, opacity: 0, willChange: 'opacity, transform' },
       { y: 0, opacity: 1, ease: "power2", duration: 0.4 },
       "-=0.2"
     );
     tl.fromTo(
       ".sec_hero .hero-img-wrap",
-      { y: 200, opacity: 0 },
+      { y: 200, opacity: 0 , willChange: 'opacity, transform'},
       { y: 0, opacity: 1, ease: "power2", duration: 0.4 },
       "-=0.2"
     );
@@ -100,6 +100,7 @@ function Mainpage() {
         sectionTag,  {
           y: 200,
           opacity: 0,
+          willChange: 'opacity, transform'
         },
         {
           y: 0,
@@ -123,6 +124,7 @@ function Mainpage() {
         {
           y: 200,
           opacity: 0,
+          willChange: 'opacity, transform'
         },
         {
           y: 0,
@@ -147,6 +149,7 @@ function Mainpage() {
         {
           y: 200,
           opacity: 0,
+          willChange: 'opacity, transform'
         },
         {
           y: 0,
@@ -170,6 +173,7 @@ function Mainpage() {
         {
           scale: 0.8,
           opacity: 0,
+          willChange: 'opacity, scale'
         },
         {
           scale: 1,
