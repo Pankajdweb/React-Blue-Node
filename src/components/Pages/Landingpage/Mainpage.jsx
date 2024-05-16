@@ -68,30 +68,30 @@ function Mainpage() {
     tl.fromTo(
       ".sec_hero h1",
       { y: 200, opacity: 0 },
-      { y: 0, opacity: 1, duration: 0.5 }
+      { y: 0, opacity: 1, duration: 0.4 }
     );
     tl.fromTo(
       ".sec_hero .hbtnrowone",
       { y: 200, opacity: 0 },
-      { y: 0, opacity: 1, duration: 0.5 },
+      { y: 0, opacity: 1, duration: 0.4 },
       "-=0.2"
     );
     tl.fromTo(
       ".sec_hero .hero_desc-wrap",
       { y: 200, opacity: 0 },
-      { y: 0, opacity: 1, duration: 0.5 },
+      { y: 0, opacity: 1, ease: "power2", duration: 0.4 },
       "-=0.2"
     );
     tl.fromTo(
       ".sec_hero .hbtnrowtwo",
       { y: 200, opacity: 0 },
-      { y: 0, opacity: 1, duration: 0.5 },
+      { y: 0, opacity: 1, ease: "power2", duration: 0.4 },
       "-=0.2"
     );
     tl.fromTo(
       ".sec_hero .hero-img-wrap",
       { y: 200, opacity: 0 },
-      { y: 0, opacity: 1, duration: 0.5 },
+      { y: 0, opacity: 1, ease: "power2", duration: 0.4 },
       "-=0.2"
     );
 
@@ -104,9 +104,9 @@ function Mainpage() {
         {
           y: 0,
           opacity: 1,
-          rotation: 0,
-          duration: 0.5,
-          delay: 0,
+          duration: 0.4,
+          scrub: true,
+          ease: "power2",
           scrollTrigger: {
             trigger: sectionTag,
             start: "top center+=25%",
@@ -127,7 +127,9 @@ function Mainpage() {
         {
           y: 0,
           opacity: 1,
-          duration: 0.5,
+          duration: 0.4,
+          scrub: true,
+          ease: "power2",
 
           scrollTrigger: {
             trigger: h2,
@@ -149,7 +151,9 @@ function Mainpage() {
         {
           y: 0,
           opacity: 1,
-          duration: 0.5,
+          duration: 0.4,
+          ease: "power2",
+          scrub: true,
           scrollTrigger: {
             trigger: contentwrap,
             start: "top center+=25%",
@@ -169,13 +173,16 @@ function Mainpage() {
         },
         {
           scale: 1,
+          ease: "power2",
+          duration: 0.4,
+          scrub: true,
           opacity: 1,
-          duration: 0.5,
           // scrollTrigger:contentwrap,
           scrollTrigger: {
             trigger: imggrow,
             start: "top center+=25%",
             end: "bottom bottom",
+            
             //markers: true,
           },
         }
